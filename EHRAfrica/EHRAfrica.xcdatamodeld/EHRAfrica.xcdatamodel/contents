@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C94b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Exam" representedClassName="Exam" syncable="YES">
+        <attribute name="location" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="exam" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="General" representedClassName="General" syncable="YES">
+        <attribute name="dob" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="idnumber" optional="YES" attributeType="Float" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="general" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" syncable="YES">
+        <relationship name="exam" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exam" inverseName="patient" inverseEntity="Exam" syncable="YES"/>
+        <relationship name="general" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="General" inverseName="patient" inverseEntity="General" syncable="YES"/>
+        <relationship name="personalhx" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonalHx" inverseName="patient" inverseEntity="PersonalHx" syncable="YES"/>
+        <relationship name="symptoms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Symptoms" inverseName="patient" inverseEntity="Symptoms" syncable="YES"/>
+        <relationship name="vaccinations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Vaccinations" inverseName="patient" inverseEntity="Vaccinations" syncable="YES"/>
+        <relationship name="vitals" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vitals" inverseName="patient" inverseEntity="Vitals" syncable="YES"/>
+    </entity>
+    <entity name="PersonalHx" representedClassName="PersonalHx" syncable="YES">
+        <attribute name="allergies" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="famhx" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="medhx" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="sochx" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="personalhx" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="Symptoms" representedClassName="Symptoms" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="other" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="symptoms" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="Vaccinations" representedClassName="Vaccinations" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="vaccinations" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="Vitals" representedClassName="Vitals" syncable="YES">
+        <attribute name="bloodgluc" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bloodpres" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="heartrate" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="resprate" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="Float" minValueString="1" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="patient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="vitals" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exam" positionX="-3701" positionY="-1618" width="128" height="88"/>
+        <element name="General" positionX="-4034" positionY="-1980" width="128" height="150"/>
+        <element name="Patient" positionX="-3825" positionY="-1827" width="128" height="133"/>
+        <element name="PersonalHx" positionX="-3827" positionY="-1990" width="128" height="118"/>
+        <element name="Symptoms" positionX="-3582" positionY="-1801" width="128" height="118"/>
+        <element name="Vaccinations" positionX="-3647" positionY="-1989" width="128" height="88"/>
+        <element name="Vitals" positionX="-3881" positionY="-1620" width="128" height="133"/>
+    </elements>
+</model>

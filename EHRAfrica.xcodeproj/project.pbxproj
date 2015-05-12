@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A6D3911AEE0A2D007F29F4 /* VaccinationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6D3901AEE0A2D007F29F4 /* VaccinationsViewController.m */; };
+		F4A6D3941AEE135F007F29F4 /* PersonalHxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6D3931AEE135F007F29F4 /* PersonalHxViewController.m */; };
+		F4CE52D71AFBF71500591326 /* EST. 2015 (3).png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE52D61AFBF71500591326 /* EST. 2015 (3).png */; };
+		F4CEE04F1AF346A800397406 /* SimpleControls-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE04E1AF346A800397406 /* SimpleControls-Info.plist */; };
+		F4CEE0531AF346B700397406 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE0501AF346B700397406 /* Default-568h@2x.png */; };
+		F4CEE0541AF346B700397406 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE0511AF346B700397406 /* Default.png */; };
+		F4CEE0551AF346B700397406 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE0521AF346B700397406 /* Default@2x.png */; };
+		F4CEE0591AF3470900397406 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CEE0561AF3470900397406 /* BLE.m */; };
+		F702C7CD1ADC633E00C8C860 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F702C7CC1ADC633E00C8C860 /* HomeViewController.m */; };
+		F70A00F61ADF116D00DC364A /* General.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A00F51ADF116D00DC364A /* General.m */; };
+		F70A00F91ADF117C00DC364A /* PersonalHx.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A00F81ADF117C00DC364A /* PersonalHx.m */; };
+		F70A00FC1ADF118600DC364A /* Vaccinations.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A00FB1ADF118600DC364A /* Vaccinations.m */; };
+		F70A00FF1ADF119200DC364A /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A00FE1ADF119200DC364A /* Patient.m */; };
+		F70A01021ADF119D00DC364A /* Symptoms.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A01011ADF119D00DC364A /* Symptoms.m */; };
+		F70A01051ADF11A900DC364A /* Vitals.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A01041ADF11A900DC364A /* Vitals.m */; };
+		F70A01081ADF11B600DC364A /* Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A01071ADF11B600DC364A /* Exam.m */; };
+		F724ABBF1AF05CE400CF88F7 /* PatientProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F724ABBE1AF05CE400CF88F7 /* PatientProfileViewController.m */; };
+		F74C97B61AF0AAD5002E1E42 /* PastPatientVisitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C97B51AF0AAD5002E1E42 /* PastPatientVisitsViewController.m */; };
+		F74C97B91AF0ACAD002E1E42 /* NewPatientVisitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74C97B81AF0ACAD002E1E42 /* NewPatientVisitViewController.m */; };
+		F75CA5771AD9C66600416E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CA5761AD9C66600416E48 /* main.m */; };
+		F75CA57A1AD9C66600416E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CA5791AD9C66600416E48 /* AppDelegate.m */; };
+		F75CA57D1AD9C66600416E48 /* EHRAfrica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F75CA57B1AD9C66600416E48 /* EHRAfrica.xcdatamodeld */; };
+		F75CA5801AD9C66600416E48 /* GeneralPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CA57F1AD9C66600416E48 /* GeneralPatientViewController.m */; };
+		F75CA5831AD9C66600416E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75CA5811AD9C66600416E48 /* Main.storyboard */; };
+		F75CA5851AD9C66600416E48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75CA5841AD9C66600416E48 /* Images.xcassets */; };
+		F75CA5881AD9C66600416E48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75CA5861AD9C66600416E48 /* LaunchScreen.xib */; };
+		F75CA5941AD9C66600416E48 /* EHRAfricaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CA5931AD9C66600416E48 /* EHRAfricaTests.m */; };
+		F75CA5A11AD9CB1F00416E48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75CA5A01AD9CB1E00416E48 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F7ABB6B91AEEC0AC00C73A0B /* PersonalHxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ABB6B81AEEC0AC00C73A0B /* PersonalHxDetailViewController.m */; };
+		F7ABB6BF1AEEC68B00C73A0B /* PatientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ABB6BE1AEEC68B00C73A0B /* PatientListViewController.m */; };
+		F7ABB6C51AEED7FA00C73A0B /* VaccinationsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ABB6C41AEED7FA00C73A0B /* VaccinationsDetailViewController.m */; };
+		F7ABB7001AEEE3B900C73A0B /* ExaminationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ABB6FF1AEEE3B900C73A0B /* ExaminationDetailViewController.m */; };
+		F7B0D5751AF2E2DB001BD395 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B0D5721AF2E2DB001BD395 /* CoreGraphics.framework */; };
+		F7B0D5761AF2E2DB001BD395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B0D5731AF2E2DB001BD395 /* Foundation.framework */; };
+		F7B0D5771AF2E2DB001BD395 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B0D5741AF2E2DB001BD395 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75CA58E1AD9C66600416E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75CA5691AD9C66600416E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75CA5701AD9C66600416E48;
+			remoteInfo = EHRAfrica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4A6D38F1AEE0A2D007F29F4 /* VaccinationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VaccinationsViewController.h; sourceTree = "<group>"; };
+		F4A6D3901AEE0A2D007F29F4 /* VaccinationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaccinationsViewController.m; sourceTree = "<group>"; };
+		F4A6D3921AEE135F007F29F4 /* PersonalHxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalHxViewController.h; sourceTree = "<group>"; };
+		F4A6D3931AEE135F007F29F4 /* PersonalHxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalHxViewController.m; sourceTree = "<group>"; };
+		F4CE52D61AFBF71500591326 /* EST. 2015 (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "EST. 2015 (3).png"; path = "../../EST. 2015 (3).png"; sourceTree = "<group>"; };
+		F4CEE04D1AF3469900397406 /* SimpleControls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SimpleControls-Prefix.pch"; path = "../../SimpleControls_iOS/SimpleControls/SimpleControls-Prefix.pch"; sourceTree = "<group>"; };
+		F4CEE04E1AF346A800397406 /* SimpleControls-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SimpleControls-Info.plist"; path = "../../SimpleControls_iOS/SimpleControls/SimpleControls-Info.plist"; sourceTree = "<group>"; };
+		F4CEE0501AF346B700397406 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../SimpleControls_iOS/SimpleControls/Default-568h@2x.png"; sourceTree = "<group>"; };
+		F4CEE0511AF346B700397406 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../SimpleControls_iOS/SimpleControls/Default.png; sourceTree = "<group>"; };
+		F4CEE0521AF346B700397406 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../SimpleControls_iOS/SimpleControls/Default@2x.png"; sourceTree = "<group>"; };
+		F4CEE0561AF3470900397406 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLE.m; path = ../../SimpleControls_iOS/SimpleControls/BLE_Framework/BLE.m; sourceTree = "<group>"; };
+		F4CEE0571AF3470900397406 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLE.h; path = ../../SimpleControls_iOS/SimpleControls/BLE_Framework/BLE.h; sourceTree = "<group>"; };
+		F4CEE0581AF3470900397406 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEDefines.h; path = ../../SimpleControls_iOS/SimpleControls/BLE_Framework/BLEDefines.h; sourceTree = "<group>"; };
+		F702C7CB1ADC633E00C8C860 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F702C7CC1ADC633E00C8C860 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F70A00F41ADF116D00DC364A /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = General.h; path = ../General.h; sourceTree = "<group>"; };
+		F70A00F51ADF116D00DC364A /* General.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = General.m; path = ../General.m; sourceTree = "<group>"; };
+		F70A00F71ADF117C00DC364A /* PersonalHx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalHx.h; path = ../PersonalHx.h; sourceTree = "<group>"; };
+		F70A00F81ADF117C00DC364A /* PersonalHx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalHx.m; path = ../PersonalHx.m; sourceTree = "<group>"; };
+		F70A00FA1ADF118600DC364A /* Vaccinations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vaccinations.h; path = ../Vaccinations.h; sourceTree = "<group>"; };
+		F70A00FB1ADF118600DC364A /* Vaccinations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vaccinations.m; path = ../Vaccinations.m; sourceTree = "<group>"; };
+		F70A00FD1ADF119200DC364A /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Patient.h; path = ../Patient.h; sourceTree = "<group>"; };
+		F70A00FE1ADF119200DC364A /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Patient.m; path = ../Patient.m; sourceTree = "<group>"; };
+		F70A01001ADF119D00DC364A /* Symptoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Symptoms.h; path = ../Symptoms.h; sourceTree = "<group>"; };
+		F70A01011ADF119D00DC364A /* Symptoms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Symptoms.m; path = ../Symptoms.m; sourceTree = "<group>"; };
+		F70A01031ADF11A900DC364A /* Vitals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vitals.h; path = ../Vitals.h; sourceTree = "<group>"; };
+		F70A01041ADF11A900DC364A /* Vitals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vitals.m; path = ../Vitals.m; sourceTree = "<group>"; };
+		F70A01061ADF11B600DC364A /* Exam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exam.h; path = ../Exam.h; sourceTree = "<group>"; };
+		F70A01071ADF11B600DC364A /* Exam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Exam.m; path = ../Exam.m; sourceTree = "<group>"; };
+		F724ABBD1AF05CE400CF88F7 /* PatientProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientProfileViewController.h; sourceTree = "<group>"; };
+		F724ABBE1AF05CE400CF88F7 /* PatientProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientProfileViewController.m; sourceTree = "<group>"; };
+		F74C97B41AF0AAD5002E1E42 /* PastPatientVisitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastPatientVisitsViewController.h; sourceTree = "<group>"; };
+		F74C97B51AF0AAD5002E1E42 /* PastPatientVisitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastPatientVisitsViewController.m; sourceTree = "<group>"; };
+		F74C97B71AF0ACAD002E1E42 /* NewPatientVisitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPatientVisitViewController.h; sourceTree = "<group>"; };
+		F74C97B81AF0ACAD002E1E42 /* NewPatientVisitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPatientVisitViewController.m; sourceTree = "<group>"; };
+		F75CA5711AD9C66600416E48 /* EHRAfrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHRAfrica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75CA5751AD9C66600416E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75CA5761AD9C66600416E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F75CA5781AD9C66600416E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F75CA5791AD9C66600416E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F75CA57C1AD9C66600416E48 /* EHRAfrica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EHRAfrica.xcdatamodel; sourceTree = "<group>"; };
+		F75CA57E1AD9C66600416E48 /* GeneralPatientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralPatientViewController.h; sourceTree = "<group>"; };
+		F75CA57F1AD9C66600416E48 /* GeneralPatientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralPatientViewController.m; sourceTree = "<group>"; };
+		F75CA5821AD9C66600416E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F75CA5841AD9C66600416E48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F75CA5871AD9C66600416E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F75CA58D1AD9C66600416E48 /* EHRAfricaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EHRAfricaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75CA5921AD9C66600416E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75CA5931AD9C66600416E48 /* EHRAfricaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHRAfricaTests.m; sourceTree = "<group>"; };
+		F75CA5A01AD9CB1E00416E48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7ABB6B71AEEC0AC00C73A0B /* PersonalHxDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalHxDetailViewController.h; sourceTree = "<group>"; };
+		F7ABB6B81AEEC0AC00C73A0B /* PersonalHxDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalHxDetailViewController.m; sourceTree = "<group>"; };
+		F7ABB6BD1AEEC68B00C73A0B /* PatientListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatientListViewController.h; path = ../PatientListViewController.h; sourceTree = "<group>"; };
+		F7ABB6BE1AEEC68B00C73A0B /* PatientListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatientListViewController.m; path = ../PatientListViewController.m; sourceTree = "<group>"; };
+		F7ABB6C31AEED7FA00C73A0B /* VaccinationsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VaccinationsDetailViewController.h; sourceTree = "<group>"; };
+		F7ABB6C41AEED7FA00C73A0B /* VaccinationsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaccinationsDetailViewController.m; sourceTree = "<group>"; };
+		F7ABB6FE1AEEE3B900C73A0B /* ExaminationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExaminationDetailViewController.h; sourceTree = "<group>"; };
+		F7ABB6FF1AEEE3B900C73A0B /* ExaminationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExaminationDetailViewController.m; sourceTree = "<group>"; };
+		F7B0D5721AF2E2DB001BD395 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7B0D5731AF2E2DB001BD395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7B0D5741AF2E2DB001BD395 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75CA56E1AD9C66600416E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B0D5751AF2E2DB001BD395 /* CoreGraphics.framework in Frameworks */,
+				F7B0D5761AF2E2DB001BD395 /* Foundation.framework in Frameworks */,
+				F7B0D5771AF2E2DB001BD395 /* CoreBluetooth.framework in Frameworks */,
+				F75CA5A11AD9CB1F00416E48 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CA58A1AD9C66600416E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CE52C91AF59F7600591326 /* New Patient  */ = {
+			isa = PBXGroup;
+			children = (
+				F75CA57E1AD9C66600416E48 /* GeneralPatientViewController.h */,
+				F75CA57F1AD9C66600416E48 /* GeneralPatientViewController.m */,
+				F4A6D3921AEE135F007F29F4 /* PersonalHxViewController.h */,
+				F4A6D3931AEE135F007F29F4 /* PersonalHxViewController.m */,
+				F4A6D38F1AEE0A2D007F29F4 /* VaccinationsViewController.h */,
+				F4A6D3901AEE0A2D007F29F4 /* VaccinationsViewController.m */,
+			);
+			name = "New Patient ";
+			sourceTree = "<group>";
+		};
+		F4CE52CB1AF59FA400591326 /* Examination */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABB6B71AEEC0AC00C73A0B /* PersonalHxDetailViewController.h */,
+				F7ABB6B81AEEC0AC00C73A0B /* PersonalHxDetailViewController.m */,
+				F7ABB6C31AEED7FA00C73A0B /* VaccinationsDetailViewController.h */,
+				F7ABB6C41AEED7FA00C73A0B /* VaccinationsDetailViewController.m */,
+				F7ABB6FE1AEEE3B900C73A0B /* ExaminationDetailViewController.h */,
+				F7ABB6FF1AEEE3B900C73A0B /* ExaminationDetailViewController.m */,
+			);
+			name = Examination;
+			sourceTree = "<group>";
+		};
+		F4CE52D11AF72CBA00591326 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F75CA5781AD9C66600416E48 /* AppDelegate.h */,
+				F75CA5791AD9C66600416E48 /* AppDelegate.m */,
+				F702C7CB1ADC633E00C8C860 /* HomeViewController.h */,
+				F702C7CC1ADC633E00C8C860 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F4CE52D21AF72D0200591326 /* Recent List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recent List";
+			sourceTree = "<group>";
+		};
+		F4CE52D31AF72D5200591326 /* Patient Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F724ABBD1AF05CE400CF88F7 /* PatientProfileViewController.h */,
+				F724ABBE1AF05CE400CF88F7 /* PatientProfileViewController.m */,
+				F4CE52D51AF7304000591326 /* Past Patient */,
+				F4CE52D41AF72FFC00591326 /* HeartRate */,
+				F4CE52CB1AF59FA400591326 /* Examination */,
+				F4CE52D21AF72D0200591326 /* Recent List */,
+				F7ABB6BD1AEEC68B00C73A0B /* PatientListViewController.h */,
+				F7ABB6BE1AEEC68B00C73A0B /* PatientListViewController.m */,
+			);
+			name = "Patient Profile";
+			sourceTree = "<group>";
+		};
+		F4CE52D41AF72FFC00591326 /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				F74C97B71AF0ACAD002E1E42 /* NewPatientVisitViewController.h */,
+				F74C97B81AF0ACAD002E1E42 /* NewPatientVisitViewController.m */,
+			);
+			name = HeartRate;
+			sourceTree = "<group>";
+		};
+		F4CE52D51AF7304000591326 /* Past Patient */ = {
+			isa = PBXGroup;
+			children = (
+				F74C97B41AF0AAD5002E1E42 /* PastPatientVisitsViewController.h */,
+				F74C97B51AF0AAD5002E1E42 /* PastPatientVisitsViewController.m */,
+			);
+			name = "Past Patient";
+			sourceTree = "<group>";
+		};
+		F75CA5681AD9C66600416E48 = {
+			isa = PBXGroup;
+			children = (
+				F75CA5731AD9C66600416E48 /* EHRAfrica */,
+				F75CA5901AD9C66600416E48 /* EHRAfricaTests */,
+				F75CA5721AD9C66600416E48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75CA5721AD9C66600416E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75CA5711AD9C66600416E48 /* EHRAfrica.app */,
+				F75CA58D1AD9C66600416E48 /* EHRAfricaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75CA5731AD9C66600416E48 /* EHRAfrica */ = {
+			isa = PBXGroup;
+			children = (
+				F75CA5811AD9C66600416E48 /* Main.storyboard */,
+				F4CE52D31AF72D5200591326 /* Patient Profile */,
+				F4CE52C91AF59F7600591326 /* New Patient  */,
+				F4CE52D11AF72CBA00591326 /* Home */,
+				F7ABB6C01AEEC82600C73A0B /* Data Files */,
+				F75CA5841AD9C66600416E48 /* Images.xcassets */,
+				F4CE52D61AFBF71500591326 /* EST. 2015 (3).png */,
+				F75CA5861AD9C66600416E48 /* LaunchScreen.xib */,
+				F75CA57B1AD9C66600416E48 /* EHRAfrica.xcdatamodeld */,
+				F75CA5741AD9C66600416E48 /* Supporting Files */,
+				F75CA5A01AD9CB1E00416E48 /* UIKit.framework */,
+			);
+			path = EHRAfrica;
+			sourceTree = "<group>";
+		};
+		F75CA5741AD9C66600416E48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7B0D5721AF2E2DB001BD395 /* CoreGraphics.framework */,
+				F7B0D5731AF2E2DB001BD395 /* Foundation.framework */,
+				F4CEE0561AF3470900397406 /* BLE.m */,
+				F4CEE0571AF3470900397406 /* BLE.h */,
+				F4CEE0581AF3470900397406 /* BLEDefines.h */,
+				F7B0D5741AF2E2DB001BD395 /* CoreBluetooth.framework */,
+				F4CEE04E1AF346A800397406 /* SimpleControls-Info.plist */,
+				F4CEE04D1AF3469900397406 /* SimpleControls-Prefix.pch */,
+				F4CEE0501AF346B700397406 /* Default-568h@2x.png */,
+				F4CEE0511AF346B700397406 /* Default.png */,
+				F4CEE0521AF346B700397406 /* Default@2x.png */,
+				F75CA5751AD9C66600416E48 /* Info.plist */,
+				F75CA5761AD9C66600416E48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F75CA5901AD9C66600416E48 /* EHRAfricaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F75CA5931AD9C66600416E48 /* EHRAfricaTests.m */,
+				F75CA5911AD9C66600416E48 /* Supporting Files */,
+			);
+			path = EHRAfricaTests;
+			sourceTree = "<group>";
+		};
+		F75CA5911AD9C66600416E48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75CA5921AD9C66600416E48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7ABB6C01AEEC82600C73A0B /* Data Files */ = {
+			isa = PBXGroup;
+			children = (
+				F70A00FD1ADF119200DC364A /* Patient.h */,
+				F70A00FE1ADF119200DC364A /* Patient.m */,
+				F70A00F41ADF116D00DC364A /* General.h */,
+				F70A00F51ADF116D00DC364A /* General.m */,
+				F70A00F71ADF117C00DC364A /* PersonalHx.h */,
+				F70A00F81ADF117C00DC364A /* PersonalHx.m */,
+				F70A00FA1ADF118600DC364A /* Vaccinations.h */,
+				F70A00FB1ADF118600DC364A /* Vaccinations.m */,
+				F70A01001ADF119D00DC364A /* Symptoms.h */,
+				F70A01011ADF119D00DC364A /* Symptoms.m */,
+				F70A01061ADF11B600DC364A /* Exam.h */,
+				F70A01071ADF11B600DC364A /* Exam.m */,
+				F70A01031ADF11A900DC364A /* Vitals.h */,
+				F70A01041ADF11A900DC364A /* Vitals.m */,
+			);
+			name = "Data Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75CA5701AD9C66600416E48 /* EHRAfrica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75CA5971AD9C66600416E48 /* Build configuration list for PBXNativeTarget "EHRAfrica" */;
+			buildPhases = (
+				F75CA56D1AD9C66600416E48 /* Sources */,
+				F75CA56E1AD9C66600416E48 /* Frameworks */,
+				F75CA56F1AD9C66600416E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EHRAfrica;
+			productName = EHRAfrica;
+			productReference = F75CA5711AD9C66600416E48 /* EHRAfrica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75CA58C1AD9C66600416E48 /* EHRAfricaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75CA59A1AD9C66600416E48 /* Build configuration list for PBXNativeTarget "EHRAfricaTests" */;
+			buildPhases = (
+				F75CA5891AD9C66600416E48 /* Sources */,
+				F75CA58A1AD9C66600416E48 /* Frameworks */,
+				F75CA58B1AD9C66600416E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75CA58F1AD9C66600416E48 /* PBXTargetDependency */,
+			);
+			name = EHRAfricaTests;
+			productName = EHRAfricaTests;
+			productReference = F75CA58D1AD9C66600416E48 /* EHRAfricaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75CA5691AD9C66600416E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alec Thimsen";
+				TargetAttributes = {
+					F75CA5701AD9C66600416E48 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = FW8M2SJX5U;
+					};
+					F75CA58C1AD9C66600416E48 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F75CA5701AD9C66600416E48;
+					};
+				};
+			};
+			buildConfigurationList = F75CA56C1AD9C66600416E48 /* Build configuration list for PBXProject "EHRAfrica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75CA5681AD9C66600416E48;
+			productRefGroup = F75CA5721AD9C66600416E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75CA5701AD9C66600416E48 /* EHRAfrica */,
+				F75CA58C1AD9C66600416E48 /* EHRAfricaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75CA56F1AD9C66600416E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CEE0541AF346B700397406 /* Default.png in Resources */,
+				F4CEE0551AF346B700397406 /* Default@2x.png in Resources */,
+				F4CE52D71AFBF71500591326 /* EST. 2015 (3).png in Resources */,
+				F75CA5831AD9C66600416E48 /* Main.storyboard in Resources */,
+				F4CEE04F1AF346A800397406 /* SimpleControls-Info.plist in Resources */,
+				F75CA5881AD9C66600416E48 /* LaunchScreen.xib in Resources */,
+				F75CA5851AD9C66600416E48 /* Images.xcassets in Resources */,
+				F4CEE0531AF346B700397406 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CA58B1AD9C66600416E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75CA56D1AD9C66600416E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ABB7001AEEE3B900C73A0B /* ExaminationDetailViewController.m in Sources */,
+				F70A01081ADF11B600DC364A /* Exam.m in Sources */,
+				F74C97B61AF0AAD5002E1E42 /* PastPatientVisitsViewController.m in Sources */,
+				F7ABB6C51AEED7FA00C73A0B /* VaccinationsDetailViewController.m in Sources */,
+				F75CA57A1AD9C66600416E48 /* AppDelegate.m in Sources */,
+				F4A6D3911AEE0A2D007F29F4 /* VaccinationsViewController.m in Sources */,
+				F7ABB6B91AEEC0AC00C73A0B /* PersonalHxDetailViewController.m in Sources */,
+				F75CA57D1AD9C66600416E48 /* EHRAfrica.xcdatamodeld in Sources */,
+				F70A01051ADF11A900DC364A /* Vitals.m in Sources */,
+				F70A00F61ADF116D00DC364A /* General.m in Sources */,
+				F70A00FF1ADF119200DC364A /* Patient.m in Sources */,
+				F4CEE0591AF3470900397406 /* BLE.m in Sources */,
+				F724ABBF1AF05CE400CF88F7 /* PatientProfileViewController.m in Sources */,
+				F70A00FC1ADF118600DC364A /* Vaccinations.m in Sources */,
+				F70A01021ADF119D00DC364A /* Symptoms.m in Sources */,
+				F7ABB6BF1AEEC68B00C73A0B /* PatientListViewController.m in Sources */,
+				F70A00F91ADF117C00DC364A /* PersonalHx.m in Sources */,
+				F4A6D3941AEE135F007F29F4 /* PersonalHxViewController.m in Sources */,
+				F75CA5801AD9C66600416E48 /* GeneralPatientViewController.m in Sources */,
+				F75CA5771AD9C66600416E48 /* main.m in Sources */,
+				F74C97B91AF0ACAD002E1E42 /* NewPatientVisitViewController.m in Sources */,
+				F702C7CD1ADC633E00C8C860 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CA5891AD9C66600416E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75CA5941AD9C66600416E48 /* EHRAfricaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75CA58F1AD9C66600416E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75CA5701AD9C66600416E48 /* EHRAfrica */;
+			targetProxy = F75CA58E1AD9C66600416E48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F75CA5811AD9C66600416E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75CA5821AD9C66600416E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F75CA5861AD9C66600416E48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75CA5871AD9C66600416E48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F75CA5951AD9C66600416E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75CA5961AD9C66600416E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75CA5981AD9C66600416E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EHRAfrica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F75CA5991AD9C66600416E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EHRAfrica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F75CA59B1AD9C66600416E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EHRAfricaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EHRAfrica.app/EHRAfrica";
+			};
+			name = Debug;
+		};
+		F75CA59C1AD9C66600416E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EHRAfricaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EHRAfrica.app/EHRAfrica";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75CA56C1AD9C66600416E48 /* Build configuration list for PBXProject "EHRAfrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CA5951AD9C66600416E48 /* Debug */,
+				F75CA5961AD9C66600416E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75CA5971AD9C66600416E48 /* Build configuration list for PBXNativeTarget "EHRAfrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CA5981AD9C66600416E48 /* Debug */,
+				F75CA5991AD9C66600416E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75CA59A1AD9C66600416E48 /* Build configuration list for PBXNativeTarget "EHRAfricaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CA59B1AD9C66600416E48 /* Debug */,
+				F75CA59C1AD9C66600416E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F75CA57B1AD9C66600416E48 /* EHRAfrica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F75CA57C1AD9C66600416E48 /* EHRAfrica.xcdatamodel */,
+			);
+			currentVersion = F75CA57C1AD9C66600416E48 /* EHRAfrica.xcdatamodel */;
+			path = EHRAfrica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F75CA5691AD9C66600416E48 /* Project object */;
+}
