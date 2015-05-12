@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		F4A6D3911AEE0A2D007F29F4 /* VaccinationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6D3901AEE0A2D007F29F4 /* VaccinationsViewController.m */; };
 		F4A6D3941AEE135F007F29F4 /* PersonalHxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6D3931AEE135F007F29F4 /* PersonalHxViewController.m */; };
-		F4CE52D71AFBF71500591326 /* EST. 2015 (3).png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE52D61AFBF71500591326 /* EST. 2015 (3).png */; };
-		F4CEE04F1AF346A800397406 /* SimpleControls-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE04E1AF346A800397406 /* SimpleControls-Info.plist */; };
-		F4CEE0531AF346B700397406 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE0501AF346B700397406 /* Default-568h@2x.png */; };
-		F4CEE0541AF346B700397406 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE0511AF346B700397406 /* Default.png */; };
-		F4CEE0551AF346B700397406 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CEE0521AF346B700397406 /* Default@2x.png */; };
-		F4CEE0591AF3470900397406 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CEE0561AF3470900397406 /* BLE.m */; };
+		F4CE52DA1B01AF8B00591326 /* SimpleControls-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CE52D91B01AF8B00591326 /* SimpleControls-Info.plist */; };
+		F4CE52DE1B01AF9B00591326 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE52DB1B01AF9B00591326 /* Default@2x.png */; };
+		F4CE52DF1B01AF9B00591326 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE52DC1B01AF9B00591326 /* Default.png */; };
+		F4CE52E01B01AF9B00591326 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE52DD1B01AF9B00591326 /* Default-568h@2x.png */; };
+		F4CE52E41B01B00C00591326 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CE52E21B01B00C00591326 /* BLE.m */; };
+		F4CE52E61B01B04900591326 /* EST. 2015 (3).png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE52E51B01B04900591326 /* EST. 2015 (3).png */; };
 		F702C7CD1ADC633E00C8C860 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F702C7CC1ADC633E00C8C860 /* HomeViewController.m */; };
 		F70A00F61ADF116D00DC364A /* General.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A00F51ADF116D00DC364A /* General.m */; };
 		F70A00F91ADF117C00DC364A /* PersonalHx.m in Sources */ = {isa = PBXBuildFile; fileRef = F70A00F81ADF117C00DC364A /* PersonalHx.m */; };
@@ -59,15 +59,15 @@
 		F4A6D3901AEE0A2D007F29F4 /* VaccinationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaccinationsViewController.m; sourceTree = "<group>"; };
 		F4A6D3921AEE135F007F29F4 /* PersonalHxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalHxViewController.h; sourceTree = "<group>"; };
 		F4A6D3931AEE135F007F29F4 /* PersonalHxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalHxViewController.m; sourceTree = "<group>"; };
-		F4CE52D61AFBF71500591326 /* EST. 2015 (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "EST. 2015 (3).png"; path = "../../EST. 2015 (3).png"; sourceTree = "<group>"; };
-		F4CEE04D1AF3469900397406 /* SimpleControls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SimpleControls-Prefix.pch"; path = "../../SimpleControls_iOS/SimpleControls/SimpleControls-Prefix.pch"; sourceTree = "<group>"; };
-		F4CEE04E1AF346A800397406 /* SimpleControls-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SimpleControls-Info.plist"; path = "../../SimpleControls_iOS/SimpleControls/SimpleControls-Info.plist"; sourceTree = "<group>"; };
-		F4CEE0501AF346B700397406 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../SimpleControls_iOS/SimpleControls/Default-568h@2x.png"; sourceTree = "<group>"; };
-		F4CEE0511AF346B700397406 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../SimpleControls_iOS/SimpleControls/Default.png; sourceTree = "<group>"; };
-		F4CEE0521AF346B700397406 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../SimpleControls_iOS/SimpleControls/Default@2x.png"; sourceTree = "<group>"; };
-		F4CEE0561AF3470900397406 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLE.m; path = ../../SimpleControls_iOS/SimpleControls/BLE_Framework/BLE.m; sourceTree = "<group>"; };
-		F4CEE0571AF3470900397406 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLE.h; path = ../../SimpleControls_iOS/SimpleControls/BLE_Framework/BLE.h; sourceTree = "<group>"; };
-		F4CEE0581AF3470900397406 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEDefines.h; path = ../../SimpleControls_iOS/SimpleControls/BLE_Framework/BLEDefines.h; sourceTree = "<group>"; };
+		F4CE52D81B01AF8B00591326 /* SimpleControls-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleControls-Prefix.pch"; sourceTree = "<group>"; };
+		F4CE52D91B01AF8B00591326 /* SimpleControls-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleControls-Info.plist"; sourceTree = "<group>"; };
+		F4CE52DB1B01AF9B00591326 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F4CE52DC1B01AF9B00591326 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F4CE52DD1B01AF9B00591326 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F4CE52E11B01B00C00591326 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		F4CE52E21B01B00C00591326 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		F4CE52E31B01B00C00591326 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		F4CE52E51B01B04900591326 /* EST. 2015 (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EST. 2015 (3).png"; sourceTree = "<group>"; };
 		F702C7CB1ADC633E00C8C860 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F702C7CC1ADC633E00C8C860 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F70A00F41ADF116D00DC364A /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = General.h; path = ../General.h; sourceTree = "<group>"; };
@@ -244,7 +244,7 @@
 				F4CE52D11AF72CBA00591326 /* Home */,
 				F7ABB6C01AEEC82600C73A0B /* Data Files */,
 				F75CA5841AD9C66600416E48 /* Images.xcassets */,
-				F4CE52D61AFBF71500591326 /* EST. 2015 (3).png */,
+				F4CE52E51B01B04900591326 /* EST. 2015 (3).png */,
 				F75CA5861AD9C66600416E48 /* LaunchScreen.xib */,
 				F75CA57B1AD9C66600416E48 /* EHRAfrica.xcdatamodeld */,
 				F75CA5741AD9C66600416E48 /* Supporting Files */,
@@ -258,15 +258,15 @@
 			children = (
 				F7B0D5721AF2E2DB001BD395 /* CoreGraphics.framework */,
 				F7B0D5731AF2E2DB001BD395 /* Foundation.framework */,
-				F4CEE0561AF3470900397406 /* BLE.m */,
-				F4CEE0571AF3470900397406 /* BLE.h */,
-				F4CEE0581AF3470900397406 /* BLEDefines.h */,
+				F4CE52E11B01B00C00591326 /* BLEDefines.h */,
+				F4CE52E21B01B00C00591326 /* BLE.m */,
+				F4CE52E31B01B00C00591326 /* BLE.h */,
 				F7B0D5741AF2E2DB001BD395 /* CoreBluetooth.framework */,
-				F4CEE04E1AF346A800397406 /* SimpleControls-Info.plist */,
-				F4CEE04D1AF3469900397406 /* SimpleControls-Prefix.pch */,
-				F4CEE0501AF346B700397406 /* Default-568h@2x.png */,
-				F4CEE0511AF346B700397406 /* Default.png */,
-				F4CEE0521AF346B700397406 /* Default@2x.png */,
+				F4CE52DB1B01AF9B00591326 /* Default@2x.png */,
+				F4CE52DC1B01AF9B00591326 /* Default.png */,
+				F4CE52DD1B01AF9B00591326 /* Default-568h@2x.png */,
+				F4CE52D81B01AF8B00591326 /* SimpleControls-Prefix.pch */,
+				F4CE52D91B01AF8B00591326 /* SimpleControls-Info.plist */,
 				F75CA5751AD9C66600416E48 /* Info.plist */,
 				F75CA5761AD9C66600416E48 /* main.m */,
 			);
@@ -392,14 +392,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CEE0541AF346B700397406 /* Default.png in Resources */,
-				F4CEE0551AF346B700397406 /* Default@2x.png in Resources */,
-				F4CE52D71AFBF71500591326 /* EST. 2015 (3).png in Resources */,
+				F4CE52E01B01AF9B00591326 /* Default-568h@2x.png in Resources */,
+				F4CE52DA1B01AF8B00591326 /* SimpleControls-Info.plist in Resources */,
+				F4CE52DE1B01AF9B00591326 /* Default@2x.png in Resources */,
 				F75CA5831AD9C66600416E48 /* Main.storyboard in Resources */,
-				F4CEE04F1AF346A800397406 /* SimpleControls-Info.plist in Resources */,
+				F4CE52E61B01B04900591326 /* EST. 2015 (3).png in Resources */,
 				F75CA5881AD9C66600416E48 /* LaunchScreen.xib in Resources */,
 				F75CA5851AD9C66600416E48 /* Images.xcassets in Resources */,
-				F4CEE0531AF346B700397406 /* Default-568h@2x.png in Resources */,
+				F4CE52DF1B01AF9B00591326 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CE52E41B01B00C00591326 /* BLE.m in Sources */,
 				F7ABB7001AEEE3B900C73A0B /* ExaminationDetailViewController.m in Sources */,
 				F70A01081ADF11B600DC364A /* Exam.m in Sources */,
 				F74C97B61AF0AAD5002E1E42 /* PastPatientVisitsViewController.m in Sources */,
@@ -428,7 +429,6 @@
 				F70A01051ADF11A900DC364A /* Vitals.m in Sources */,
 				F70A00F61ADF116D00DC364A /* General.m in Sources */,
 				F70A00FF1ADF119200DC364A /* Patient.m in Sources */,
-				F4CEE0591AF3470900397406 /* BLE.m in Sources */,
 				F724ABBF1AF05CE400CF88F7 /* PatientProfileViewController.m in Sources */,
 				F70A00FC1ADF118600DC364A /* Vaccinations.m in Sources */,
 				F70A01021ADF119D00DC364A /* Symptoms.m in Sources */,
