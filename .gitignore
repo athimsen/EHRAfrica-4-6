@@ -17,4 +17,6 @@ profile
 DerivedData
 .idea/
 
+#for when we have CocoaPods
+Pods
 #from http://stackoverflow.com/questions/18939421/what-should-xcode-6-gitignore-file-include
